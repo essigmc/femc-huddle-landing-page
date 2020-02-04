@@ -1,0 +1,132 @@
+/**
+font-family: 'Poppins', sans-serif;
+font-family: 'Open Sans', sans-serif;
+**/
+
+
+body {
+  background-image: url('../images/bg-mobile.svg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  background-size: 100%;
+  background-color: hsl(257, 40%, 49%);
+}
+
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5rem;
+}
+
+.button{
+    padding: 12px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 20px;
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    margin: 20px auto;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: white;
+}
+
+
+
+.button:hover {
+ 	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+
+
+header img{
+    max-width: 50%;
+    margin: 15px 20px;
+    text-align: left;
+}
+.container-one{
+    text-align: center;
+}
+
+.container-one img{
+    max-width: 90%;
+    margin: 40px auto;
+    display: block;
+    text-align: center;
+}
+
+.container-one .info{
+    margin: 0 30px;
+}
+
+
+/**SOCIAL MEDIA LINKS**/
+
+.social-links{
+    padding: 0;
+    text-align: center;
+}
+
+.list-unstyled{
+    padding-left: 0;
+    margin: 40px auto;
+    list-style: none;
+}
+
+.list-inline li{
+    display: inline-block;
+    margin: 2px;
+    margin-top: 10px;
+}
+
+.social-icons .fab{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+}
+
+.social-icons.icon-circle .fab{
+    border-radius: 100%;
+    background-color: #8f4ec7;
+}
+
+.social-icons .fa:hover, .social-icons .fa:active {
+	color: #FFF;
+	-webkit-box-shadow: 1px 1px 3px #333;
+	-moz-box-shadow: 1px 1px 3px #333;
+	box-shadow: 1px 1px 3px #333;
+}
+
+.social-icons.icon-zoom .fab:hover, .social-icons.icon-zoom .fab:active {
+ 	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.attribution a{
+    text-decoration: none;
+}
+
+.attribution a:link{
+    color: #8f4ec7;
+}
