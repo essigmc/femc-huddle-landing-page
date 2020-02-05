@@ -11,6 +11,7 @@ body {
   background-position: center top;
   background-size: 100%;
   background-color: hsl(257, 40%, 49%);
+  margin: 0;
 }
 
 
@@ -128,5 +129,47 @@ header img{
 }
 
 .attribution a:link{
-    color: #8f4ec7;
+    color: #EC52CE;
+}
+
+
+/******************SCREEN UP**************************/
+/**LARGE DEVICES (LAPTOPS/DESKTOPS, 992px and UP)**/
+
+@media only screen and (min-width: 900px) {
+    body{
+        background-image: url('../images/bg-desktop.svg');
+        padding: 40px;
+        padding-top: 10px;
+        background-size: cover;
+    }
+
+    .container-one .info{
+        float: right;
+        width: 43%;
+        text-align: left;
+    }
+
+    h1{
+        margin-top: 70px;
+        width: 80%
+    }
+
+    .container-one img{
+        display: float;
+        float: left;
+        width: 48%;
+        padding-right: 10px;
+        margin-bottom: 0;
+    }
+    .social-links{
+        display: block;
+        clear: both;
+        float: right;
+    }
+
+    .attribution{
+        clear: both;
+        margin-top: 0
+    }
 }
